@@ -53,7 +53,7 @@ building-data-genome-project-2
 |   └─ meters
 |       ├─ raw        <- all meter reading datasets, one file for each kind of meter
 |       └─ processed  <- all meters joint in one dataset: hourly and daily
-├─ notebooks          <- Jupyter notebooks, named after the naming convetion
+├─ notebooks          <- Jupyter notebooks, named after the naming convention
 └─ figures            <- figures created during exploration of BDG 2.0 Data-set
 ```
 
