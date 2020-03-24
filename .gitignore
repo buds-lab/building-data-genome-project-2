@@ -4,3 +4,14 @@ notebooks/.ipynb_checkpoints/01_EDA-metadata-checkpoint.ipynb
 notebooks/.ipynb_checkpoints/02_EDA-weather-checkpoint.ipynb
 figures/.ipynb_checkpoints/metadata_cat-checkpoint.pdf
 figures/.ipynb_checkpoints/metadata_cat-checkpoint.png
+figures/.ipynb_checkpoints/meters_hist-checkpoint.png
+figures/.ipynb_checkpoints/meters_hour_metertype-checkpoint.png
+figures/.ipynb_checkpoints/meters_hour_usage-checkpoint.pdf
+figures/.ipynb_checkpoints/meters_hour_usage-checkpoint.png
+figures/.ipynb_checkpoints/meters_month-checkpoint.png
+figures/.ipynb_checkpoints/meters_month_metertype-checkpoint.png
+figures/.ipynb_checkpoints/meters_month_usage-checkpoint.pdf
+figures/.ipynb_checkpoints/meters_month_usage-checkpoint.png
+figures/.ipynb_checkpoints/meters_weekday_usage-checkpoint.pdf
+figures/.ipynb_checkpoints/meters_hour-checkpoint.png
+notebooks/.ipynb_checkpoints/03_EDA-meter-reading-checkpoint.ipynb
