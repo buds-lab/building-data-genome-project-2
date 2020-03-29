@@ -21,3 +21,6 @@ figures/.ipynb_checkpoints/weather_hour-checkpoint.png
 figures/.ipynb_checkpoints/weather_month-checkpoint.png
 figures/.ipynb_checkpoints/weather_year-checkpoint.png
 notebooks/.ipynb_checkpoints/04_Models-checkpoint.ipynb
+data/meters/processed/allmeters.csv
+data/meters/processed/dev_merged.csv
+notebooks/.ipynb_checkpoints/00_All-meters-dataset-checkpoint.ipynb
