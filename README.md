@@ -28,10 +28,12 @@ It is an open data set from 1636 non-residential buildings that includes hourly 
 We recommend you download the [Anaconda Python Distribution](https://www.continuum.io/downloads) and use Jupyter to get an understanding of the data.
 - Raw temporal meters data are found in `/data/meters/raw`
 - Raw metadata is found in `data/metadata/`
+- To join all meters raw data into one dataset follow [this](/notebooks/00_All-meters-dataset.ipynb) notebook
 
 Example notebooks are found in `/notebooks/` -- a few good overview examples:
 - [Exploratory Data Analysis of metadata](notebooks/01_EDA-metadata.ipynb)
 - [Exploratory Data Analysis of weather](notebooks/02_EDA-weather.ipynb)
+- [Exploratory Data Analysis of meter reading](notebooks/03_EDA-meter-reading.ipynb)
 
 ## Citation of BDG 2.0 Data-Set
 * (publication)
