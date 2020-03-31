@@ -20,9 +20,9 @@ Most of the existing building performance data science studies rely on each indi
 
 # Building Data Genome 2.0 Data-Set
 ## Data-set description
-It is an open data set from 1636 non-residential buildings that includes hourly whole building data for two year, from different kind of meters: electricity, chilledwater, steam, hotwater, gas, water, irrigation and solar. Each of the buildings has metadata such as area, weather, and primary use type. This data set can be used to benchmark various statistical learning algorithms and other data science techniques. It can also be used simply as a teaching or learning tool to practice dealing with measured performance data from large numbers of non-residential buildings. The charts below illustrate the breakdown of the buildings according to primary use category and subcategory, industry and subindustry, timezon and meyer type.<br>
+It is an open data set from 1636 non-residential buildings that includes hourly whole building data for two year, from different kind of meters: electricity, chilledwater, steam, hotwater, gas, water, irrigation and solar. Each of the buildings has metadata such as area, weather, and primary use type. This data set can be used to benchmark various statistical learning algorithms and other data science techniques. It can also be used simply as a teaching or learning tool to practice dealing with measured performance data from large numbers of non-residential buildings. The charts below illustrate the breakdown of the buildings according to primary use category and subcategory, industry and subindustry, timezon and meter type.<br>
 
-![cat_features](figures/metadata_cat.png)
+![cat_features](figures/metadata_features.png)
 
 ## Getting Started
 We recommend you download the [Anaconda Python Distribution](https://www.continuum.io/downloads) and use Jupyter to get an understanding of the data.
