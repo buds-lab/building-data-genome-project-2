@@ -36,3 +36,17 @@ notebooks/.ipynb_checkpoints/05_Data-quality-checkpoint.ipynb
 figures/.ipynb_checkpoints/weatherSensitivity_all-checkpoint.jpg
 notebooks/.ipynb_checkpoints/06_Weather-sensitivity-checkpoint.ipynb
 notebooks/.ipynb_checkpoints/07_Normalized-consumption-checkpoint.ipynb
+data/meters/processed/chilledwater_cleaned.csv
+data/meters/processed/electricity_cleaned.csv
+data/meters/processed/gas_cleaned.csv
+data/meters/processed/hotwater_cleaned.csv
+data/meters/processed/irrigation_cleaned.csv
+data/meters/processed/solar_cleaned.csv
+data/meters/processed/steam_cleaned.csv
+data/meters/processed/water_cleaned.csv
+notebooks/.ipynb_checkpoints/09_Breakout-plot-checkpoint.ipynb
+notebooks/BDG-2/04_Anomaly-detection.Rmd
+notebooks/BDG-2/08_BreakOut-detection.nb.html
+notebooks/BDG-2/08_BreakOut-detection.Rmd
+notebooks/breakout/irrigation_cleaned_breakout.csv
+notebooks/breakout/solar_cleaned_breakout.csv
