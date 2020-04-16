@@ -50,3 +50,5 @@ notebooks/BDG-2/08_BreakOut-detection.nb.html
 notebooks/BDG-2/08_BreakOut-detection.Rmd
 notebooks/breakout/irrigation_cleaned_breakout.csv
 notebooks/breakout/solar_cleaned_breakout.csv
+notebooks/cat_df.csv
+notebooks/breakout/chilledwater_cleaned_breakout.csv
