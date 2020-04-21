@@ -1,0 +1,79 @@
+---
+title: "Building Data Genome 2.0"
+author: "Biam! (pic.biam@gmail.com)"
+subtitle: "Anomaly Detection"
+output:
+  html_notebook:
+    theme: journal
+    toc: yes
+    toc_collapsed: yes
+    toc_depth: 4
+    toc_float: yes
+  html_document:
+    df_print: paged
+    toc: yes
+    toc_depth: '4'
+---
+<style>
+body {
+text-align: justify}
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    
+}
+</style>
+
+# Introduction
+For outliers detection in the raw meters dataset will be used the [Seasonal Hybrid ESD (S-H-ESD)](https://github.com/twitter/AnomalyDetection) developed by Twitter. A brief introduction about this package can be found [here](https://blog.twitter.com/engineering/en_us/a/2015/introducing-practical-and-robust-anomaly-detection-in-a-time-series.html).
+
+# Load packages
+```{r message=FALSE, warning=FALSE}
+library(AnomalyDetection)
+library(tidyverse)
+```
+
+# Detect anomalies
+```{r}
+# List of files in directory
+files = list.files(path="..//..//data//meters//raw//", pattern="*.csv", full.names=TRUE, recursive=FALSE)
+files
+```
+
+```{r}
+# Apply method to all elementes
+lapply(files, function(x){
+  
+  # meter name
+  meter = str_split(str_split(x, "//")[[1]][6], ".csv")[[1]][1]
+  
+  # load data
+  data = read_csv(x)
+  
+  # timestamp as time object
+  data$timestamp = as.POSIXct(data$timestamp)
+  
+  # Creates df only with timestamp
+  anoms = data[,1]
+  
+  # Loop over all columns (except timestamp)
+  for (i in seq(2,ncol(data))){
+    # Column name
+    name = colnames(data)[i]
+    # Creates df with only timestamp and selected building readings
+    df = na.omit(data[, c(1,i)])
+    # If all values are nan (and number of rows equal zero), skip
+    if(nrow(df)==0) next
+    # Applies S-H-ESD test
+    res = ad_ts(df, max_anoms=0.02, direction='both')
+    # If there are no anomalies (and number of rows equal zero), skip
+    if(nrow(res)==0) next
+    # Rename column
+    names(res)[2] = name
+    # Adds results to anoms df
+    anoms = merge(anoms, res, by.x="timestamp", by.y="timestamp", all.x = TRUE)
+  }
+  
+  # write file
+  write_csv(anoms, paste0("..\\anomalies\\", meter, "_anoms.csv"))
+  })
+```
