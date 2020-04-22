@@ -1,8 +1,11 @@
 ---
 title: "Building Data Genome 2.0"
 author: "Biam! (pic.biam@gmail.com)"
-subtitle: "Breakout Detection"
+subtitle: Breakout Detection
 output:
+  pdf_document:
+    toc: yes
+    toc_depth: '4'
   html_notebook:
     theme: journal
     toc: yes
@@ -25,10 +28,10 @@ text-align: justify}
 </style>
 
 # Introduction
-For outliers detection in the raw meters dataset will be used the [Breakout Detection package](https://github.com/twitter/BreakoutDetection) developed by Twitter. A brief introduction about this package can be found [here](https://blog.twitter.com/engineering/en_us/a/2014/breakout-detection-in-the-wild.html). Cleaned meter data (outliers and 24hs zero readings removed) are used for this analysis.
+For breakout detection in the raw meters dataset will be used the [Breakout Detection package](https://github.com/twitter/BreakoutDetection) developed by Twitter. A brief introduction about this package can be found [here](https://blog.twitter.com/engineering/en_us/a/2014/breakout-detection-in-the-wild.html). Cleaned meter data (outliers and 24hs zero readings removed) are used for this analysis.
 
 # Load packages
-```{r message=FALSE, warning=FALSE}
+```{r}
 library(BreakoutDetection)
 library(tidyverse)
 ```
@@ -44,7 +47,7 @@ files
 files1 = files[2]
 ```
 
-```{r include=FALSE}
+```{r}
 # Apply method to all elementes
 lapply(files1, function(x){
   

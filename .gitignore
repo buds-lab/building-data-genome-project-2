@@ -50,3 +50,14 @@ notebooks/BDG-2/08_BreakOut-detection.nb.html
 notebooks/BDG-2/08_BreakOut-detection.Rmd
 notebooks/cat_df.csv
 notebooks/BDG-2/08_BreakOut-detection.knit.md
+notebooks/.ipynb_checkpoints/09_Models-checkpoint.ipynb
+notebooks/.ipynb_checkpoints/08_BreakOut-detection-checkpoint.Rmd
+notebooks/.ipynb_checkpoints/10_Models-checkpoint.ipynb
+notebooks/breakout_plots/chilledwater_BOdata.csv
+notebooks/breakout_plots/electricity_BOdata.csv
+notebooks/breakout_plots/gas_BOdata.csv
+notebooks/breakout_plots/hotwater_BOdata.csv
+notebooks/breakout_plots/irrigation_BOdata.csv
+notebooks/breakout_plots/solar_BOdata.csv
+notebooks/breakout_plots/steam_BOdata.csv
+notebooks/breakout_plots/water_BOdata.csv
