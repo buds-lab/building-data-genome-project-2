@@ -71,3 +71,10 @@ personal/split_longterm.png
 personal/split_shorterm.drawio
 personal/split_shorterm.png
 personal/tables.xlsx
+data/predictions/longterm_LGBM.csv
+data/predictions/longterm_real.csv
+data/predictions/shortterm-summer_LGBM.csv
+data/predictions/shortterm-summer_real.csv
+data/predictions/shortterm-winter_LGBM.csv
+notebooks/.ipynb_checkpoints/11_Models-evaluation-checkpoint.ipynb
+data/predictions/shortterm-winter_real.csv
