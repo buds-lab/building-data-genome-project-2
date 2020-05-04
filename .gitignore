@@ -78,3 +78,4 @@ data/predictions/shortterm-summer_real.csv
 data/predictions/shortterm-winter_LGBM.csv
 notebooks/.ipynb_checkpoints/11_Models-evaluation-checkpoint.ipynb
 data/predictions/shortterm-winter_real.csv
+data/meters/processed/allmeters_cleaned.csv
