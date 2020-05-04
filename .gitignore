@@ -79,3 +79,12 @@ data/predictions/shortterm-winter_LGBM.csv
 notebooks/.ipynb_checkpoints/11_Models-evaluation-checkpoint.ipynb
 data/predictions/shortterm-winter_real.csv
 data/meters/processed/allmeters_cleaned.csv
+notebooks/.ipynb_checkpoints/04_Anomaly-detection-checkpoint.ipynb
+notebooks/.ipynb_checkpoints/04_Anomaly-detection-checkpoint.Rmd
+notebooks/.ipynb_checkpoints/05_Cleaned-dataset-checkpoint.ipynb
+notebooks/.ipynb_checkpoints/06_Normalized-consumption-checkpoint.ipynb
+notebooks/.ipynb_checkpoints/07_Data-quality-checkpoint.ipynb
+notebooks/.ipynb_checkpoints/08_Weather-sensitivity-checkpoint.ipynb
+notebooks/.ipynb_checkpoints/10_Breakout-plot-checkpoint.ipynb
+notebooks/.ipynb_checkpoints/cat_df-checkpoint.csv
+predictions/longterm_real.csv
