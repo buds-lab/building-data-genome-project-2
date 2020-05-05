@@ -38,10 +38,7 @@ building-data-genome-project-2
 |   ├─metadata            <- buildings metadata
 |   ├─ weather            <- weather data
 |   └─ meters
-|       ├─ raw            <- all meter reading datasets, one file for each kind of meter
-|       └─ screening      <- data-sets created during he data screening process
-|           ├─ anomalies  <- all meters anomalies detected 
-|           └─ breakout   <- all meters breakouts detected
+|       └─ raw            <- all meter reading datasets, one file for each kind of meter
 ├─ notebooks              <- Jupyter notebooks, named after the naming convention
 └─ figures                <- figures created during exploration of BDG 2.0 Data-set
 ```
