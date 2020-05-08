@@ -1,5 +1,6 @@
 
 .ipynb_checkpoints/
 temp/
-data/processed/
-data/screening/
+data/meters/processed/
+data/meters/screening/
+notebooks/BDG-2/
