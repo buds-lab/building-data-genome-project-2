@@ -3,5 +3,6 @@
 temp/
 data/meters/processed/
 data/meters/screening/
+data/predictions/
 notebooks/BDG-2/
 .Rproj.user
