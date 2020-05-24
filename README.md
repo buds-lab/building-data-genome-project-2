@@ -8,8 +8,8 @@ BDG 2.0 is an open data set made up of 3,053 energy meters from 1,636 buildings.
 
 ## Getting Started
 We recommend you download the [Anaconda Python Distribution](https://www.continuum.io/downloads) and use Jupyter to get an understanding of the data.
-- Raw temporal meters data are found in `/data/meters/raw`
-- Raw metadata is found in `data/metadata/`
+- Temporal meters data are found in `/data/meters/`
+- Metadata is found in `data/metadata/`
 - To join all meters raw data into one dataset follow [this](/notebooks/00_All-meters-dataset.ipynb) notebook
 
 Example notebooks are found in `/notebooks/` -- a few good overview examples:
