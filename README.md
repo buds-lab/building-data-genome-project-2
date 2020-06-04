@@ -20,12 +20,23 @@ Example notebooks are found in `/notebooks/` -- a few good overview examples:
 ## Detailed Documentation
 The detailed documentation of how this data set was created can be found in the [repository's wiki](https://github.com/buds-lab/building-data-genome-project-2/wiki) and in the following publication:
 
-### Citation of BDG 2.0 Data-Set
-* (Publication)
-* (ResearchGate)
-* (Bibtex)
+### Citation of BDG2 Data-Set
+* Publication - Submitted to Scientific Data (coming soon)
+* [arXiv](https://arxiv.org/abs/2006.02273)
+* [ResearchGate](https://www.researchgate.net/publication/341895125_The_Building_Data_Genome_Project_2_Hourly_energy_meter_data_from_the_ASHRAE_Great_Energy_Predictor_III_competition)
 
-# Publications or Projects that use BDG 2.0 data-set
+```
+@misc{miller2020building,
+    title={The Building Data Genome Project 2: Hourly energy meter data from the ASHRAE Great Energy Predictor III competition},
+    author={Clayton Miller and Anjukan Kathirgamanathan and Bianca Picchetti and Pandarasamy Arjunan and June Young Park and Zoltan Nagy and Paul Raftery and Brodie W. Hobson and Zixiao Shi and Forrest Meggers},
+    year={2020},
+    eprint={2006.02273},
+    archivePrefix={arXiv},
+    primaryClass={stat.AP}
+}
+```
+
+# Publications or Projects that use BDG2 data-set
 Please update this list if you add notebooks or R-Markdown files to the ``notebook`` folder. Naming convention is a number (for ordering), the creator's initials, and a short `-` delimited description, e.g. `1.0-jqp-initial-data-exploration`.
 
 - (publication here)
@@ -33,12 +44,14 @@ Please update this list if you add notebooks or R-Markdown files to the ``notebo
 ## Repository structure
 ```
 building-data-genome-project-2
-├─ README.md              <- BDG 2.0 README for developers using this data-set
+├─ README.md              <- BDG2 README for developers using this data-set
 └─ data
 |   ├─metadata            <- buildings metadata
 |   ├─ weather            <- weather data
 |   └─ meters
-|       └─ raw            <- all meter reading datasets, one file for each kind of meter
+|       └─ raw            <- all meter reading datasets
+|       └─ cleaned        <- cleaned meter data based on several filtering steps
+|       └─ kaggle         <- the 2017 meter data that aligns with the Kaggle competition
 ├─ notebooks              <- Jupyter notebooks, named after the naming convention
 └─ figures                <- figures created during exploration of BDG 2.0 Data-set
 ```
