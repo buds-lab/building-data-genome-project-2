@@ -1,5 +1,7 @@
 ![logo](figures/buildingdatagenome2.png)
 
+[![DOI](https://zenodo.org/badge/247690451.svg)](https://zenodo.org/badge/latestdoi/247690451)
+
 # The Building Data Genome 2 Data-Set
 ## Data-set description
 BDG 2.0 is an open data set made up of 3,053 energy meters from 1,636 buildings. The time range of the times-series data is the two full years (2016 and 2017) and the frequency is hourly measurements of electricity, heating and cooling water, steam, and irrigation meters. A subset of the data was used in the [Great Energy Predictor III (GEPIII) competition hosted by the ASHRAE organization in late 2019](https://www.kaggle.com/c/ashrae-energy-prediction). The GEPIII sub-set includes hourly data from 2,380 meters from 1,449 buildings that were used in a machine learning competition for long-term prediction with an application to measurement and verification in the building energy analysis domain. This data set can be used to benchmark various statistical learning algorithms and other data science techniques. It can also be used simply as a teaching or learning tool to practice dealing with measured performance data from large numbers of non-residential buildings. The charts below illustrate the breakdown of the buildings according to primary use category and subcategory, industry and subindustry, timezone and meter type.<br>
