@@ -29,7 +29,7 @@ The detailed documentation of how this data set was created can be found in the 
 
 ```
 @misc{miller2020building,
-    title={The Building Data Genome Project 2: Hourly energy meter data from the ASHRAE Great Energy Predictor III competition},
+    title={The Building Data Genome Project 2 - Energy meter data from the ASHRAE Great Energy Predictor III competition},
     author={Clayton Miller and Anjukan Kathirgamanathan and Bianca Picchetti and Pandarasamy Arjunan and June Young Park and Zoltan Nagy and Paul Raftery and Brodie W. Hobson and Zixiao Shi and Forrest Meggers},
     year={2020},
     eprint={2006.02273},
