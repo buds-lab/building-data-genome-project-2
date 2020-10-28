@@ -62,8 +62,7 @@ Miller, C., Kathirgamanathan, A., Picchetti, B. et al. The Building Data Genome 
   journal   = "Scientific Data",
   publisher = "Nature Publishing Group",
   volume    =  7,
-  number    =  1,
-  pages     = "1--13",
+  pages     =  368,
   month     =  oct,
   year      =  2020,
   language  = "en"
