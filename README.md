@@ -31,6 +31,7 @@ Miller, C., Kathirgamanathan, A., Picchetti, B. et al. The Building Data Genome 
 
 ```
 
+
 @ARTICLE{Miller2020-yc,
   title     = "The Building Data Genome Project 2, energy meter data from the
                {ASHRAE} Great Energy Predictor {III} competition",
@@ -62,11 +63,12 @@ Miller, C., Kathirgamanathan, A., Picchetti, B. et al. The Building Data Genome 
   journal   = "Scientific Data",
   publisher = "Nature Publishing Group",
   volume    =  7,
-  pages     =  368,
+  pages     = "368",
   month     =  oct,
   year      =  2020,
   language  = "en"
 }
+
 
 ```
 
