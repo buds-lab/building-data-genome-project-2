@@ -25,19 +25,51 @@ Example notebooks are found in `/notebooks/` -- a few good overview examples:
 The detailed documentation of how this data set was created can be found in the [repository's wiki](https://github.com/buds-lab/building-data-genome-project-2/wiki) and in the following publication:
 
 ### Citation of BDG2 Data-Set
-* Publication - Submitted to Scientific Data (coming soon)
+* [Nature Scientific Data (open access)](https://www.nature.com/articles/s41597-020-00712-x)
 * [arXiv](https://arxiv.org/abs/2006.02273)
 * [ResearchGate](https://www.researchgate.net/publication/341895125_The_Building_Data_Genome_Project_2_Hourly_energy_meter_data_from_the_ASHRAE_Great_Energy_Predictor_III_competition)
 
 ```
-@misc{miller2020building,
-    title={The Building Data Genome Project 2 - Energy meter data from the ASHRAE Great Energy Predictor III competition},
-    author={Clayton Miller and Anjukan Kathirgamanathan and Bianca Picchetti and Pandarasamy Arjunan and June Young Park and Zoltan Nagy and Paul Raftery and Brodie W. Hobson and Zixiao Shi and Forrest Meggers},
-    year={2020},
-    eprint={2006.02273},
-    archivePrefix={arXiv},
-    primaryClass={stat.AP}
+Miller, C., Kathirgamanathan, A., Picchetti, B. et al. The Building Data Genome Project 2, energy meter data from the ASHRAE Great Energy Predictor III competition. Sci Data 7, 368 (2020). https://doi.org/10.1038/s41597-020-00712-x
+
+@ARTICLE{Miller2020-yc,
+  title     = "The Building Data Genome Project 2, energy meter data from the
+               {ASHRAE} Great Energy Predictor {III} competition",
+  author    = "Miller, Clayton and Kathirgamanathan, Anjukan and Picchetti,
+               Bianca and Arjunan, Pandarasamy and Park, June Young and Nagy,
+               Zoltan and Raftery, Paul and Hobson, Brodie W and Shi, Zixiao
+               and Meggers, Forrest",
+  abstract  = "This paper describes an open data set of 3,053 energy meters
+               from 1,636 non-residential buildings with a range of two full
+               years (2016 and 2017) at an hourly frequency (17,544
+               measurements per meter resulting in approximately 53.6 million
+               measurements). These meters were collected from 19 sites across
+               North America and Europe, with one or more meters per building
+               measuring whole building electrical, heating and cooling water,
+               steam, and solar energy as well as water and irrigation meters.
+               Part of these data was used in the Great Energy Predictor III
+               (GEPIII) competition hosted by the American Society of Heating,
+               Refrigeration, and Air-Conditioning Engineers (ASHRAE) in
+               October-December 2019. GEPIII was a machine learning competition
+               for long-term prediction with an application to measurement and
+               verification. This paper describes the process of data
+               collection, cleaning, and convergence of time-series meter data,
+               the meta-data about the buildings, and complementary weather
+               data. This data set can be used for further prediction
+               benchmarking and prototyping as well as anomaly detection,
+               energy analysis, and building type classification.
+               Machine-accessible metadata file describing the reported data:
+               https://doi.org/10.6084/m9.figshare.13033847",
+  journal   = "Scientific Data",
+  publisher = "Nature Publishing Group",
+  volume    =  7,
+  number    =  1,
+  pages     = "1--13",
+  month     =  oct,
+  year      =  2020,
+  language  = "en"
 }
+
 ```
 
 # Publications or Projects that use BDG2 data-set
