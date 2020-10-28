@@ -26,11 +26,10 @@ The detailed documentation of how this data set was created can be found in the 
 
 ### Citation of BDG2 Data-Set
 * [Nature Scientific Data (open access)](https://www.nature.com/articles/s41597-020-00712-x)
-* [arXiv](https://arxiv.org/abs/2006.02273)
-* [ResearchGate](https://www.researchgate.net/publication/341895125_The_Building_Data_Genome_Project_2_Hourly_energy_meter_data_from_the_ASHRAE_Great_Energy_Predictor_III_competition)
+
+Miller, C., Kathirgamanathan, A., Picchetti, B. et al. The Building Data Genome Project 2, energy meter data from the ASHRAE Great Energy Predictor III competition. Sci Data 7, 368 (2020). https://doi.org/10.1038/s41597-020-00712-x
 
 ```
-Miller, C., Kathirgamanathan, A., Picchetti, B. et al. The Building Data Genome Project 2, energy meter data from the ASHRAE Great Energy Predictor III competition. Sci Data 7, 368 (2020). https://doi.org/10.1038/s41597-020-00712-x
 
 @ARTICLE{Miller2020-yc,
   title     = "The Building Data Genome Project 2, energy meter data from the
@@ -71,6 +70,10 @@ Miller, C., Kathirgamanathan, A., Picchetti, B. et al. The Building Data Genome 
 }
 
 ```
+
+### Preprints
+* [arXiv](https://arxiv.org/abs/2006.02273)
+* [ResearchGate](https://www.researchgate.net/publication/341895125_The_Building_Data_Genome_Project_2_Hourly_energy_meter_data_from_the_ASHRAE_Great_Energy_Predictor_III_competition)
 
 # Publications or Projects that use BDG2 data-set
 Please update this list if you add notebooks or R-Markdown files to the ``notebook`` folder. Naming convention is a number (for ordering), the creator's initials, and a short `-` delimited description, e.g. `1.0-jqp-initial-data-exploration`.
